@@ -1,0 +1,1 @@
+gebruikersnaam = input("Wat is uw naam? ")
