@@ -7,11 +7,11 @@ fruitmand = {"appel":3, "banaan":5, "kers":50}
 #
 # print(fruitmand.items())
 # print("Voldoende voorraad van:")
-# for key, value in fruitmand.items():
-#     if value > 10:
-#         print(key, ":", value)
+# for x, y in fruitmand.items():
+#     print(x, y)
 #
-# fruitmand = {"appel": 3, "banaan": 5}
-# mangos = fruitmand.get("mangos", 0)
-# print("mangos:", mangos)
+fruitmand = {"appel": 3, "banaan": 5}
+appel = fruitmand.get("appel", "ik heb niets")
+mangos = fruitmand.get("mangos", 10)
+print(mangos)
 

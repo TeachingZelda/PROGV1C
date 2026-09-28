@@ -2,12 +2,14 @@ fruitmand = {"appel":3, "banaan":5, "kers":50}
 
 
 # print(fruitmand["appel"])
-# print(fruitmand["mango"])
+# print(fruitmand[3])
 #
-# if "mango" in fruitmand:
+# if 3 in fruitmand:
 #     print(fruitmand["mango"])
 
 # fruitmand["mango"] = 1
-# fruitmand["appel"] = 2
-# for key in fruitmand:
-#     print(key, "=", fruitmand[key])
+# print(fruitmand)
+fruitmand["appel"] = 2
+
+for i in fruitmand:
+    print(i, "=", fruitmand[i])

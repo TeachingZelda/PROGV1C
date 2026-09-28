@@ -7,4 +7,4 @@ print(fruitmand)
 del fruitmand["kers"]
 print(fruitmand)
 
-# print("\n", verwijderd)
+print("\n", verwijderd)
